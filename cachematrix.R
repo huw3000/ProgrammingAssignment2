@@ -2,7 +2,8 @@
 ## that can be checked by
 ## subsequent computations
 ##
-##
+## make cache matrix makes a cache to be
+## comapred against
 ##
 
 makeCacheMatrix <- function(passed_data = matrix()) {
@@ -20,7 +21,8 @@ makeCacheMatrix <- function(passed_data = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## cache solve function
+## compares against cache
 
 cacheSolve <- function(passed_data, ...) {
     
