@@ -3,7 +3,9 @@
 ## subsequent computations
 ##
 ## make cache matrix makes a cache to be
-## comapred against
+## compared against
+## follows example (make vector) from
+## Programming Assignment 2 examples
 ##
 
 makeCacheMatrix <- function(passed_data = matrix()) {
